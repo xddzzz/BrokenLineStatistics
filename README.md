@@ -1,15 +1,17 @@
-# BrokenLineStatistics/**
-*  初始化方法
-*
-*  @param frame         frame
-*  @param lineChartType 折线图类型
-*  /*每一个存在的X点都有一个y坐标对应,此时valueArr的对象类型为数值,只有一个象限*/
-*  HLChartLineEveryValueForEveryX=0,
-*  /*点的坐标不一定和坐标轴上的X数值一一对应,此时valueArr的对象类型为点*/
-*  HLChartLineValueNotForEveryX
-*
-*  @return 自定义折线图
-*/
+# BrokenLineStatistics/ReadMe.md
+
+#param mark ---- 初始化方法
+		/*
+		*
+		*  @param frame         frame
+		*  @param lineChartType 折线图类型
+		*  /*每一个存在的X点都有一个y坐标对应,此时valueArr的对象类型为数值,只有一个象限*/
+		*  HLChartLineEveryValueForEveryX=0,
+		*  /*点的坐标不一定和坐标轴上的X数值一一对应,此时valueArr的对象类型为点*/
+		*  HLChartLineValueNotForEveryX
+		*
+		*  @return 自定义折线图
+		*/
 		-(instancetype)initWithFrame:(CGRect)frame andLineChartType:(HLLineChartType)lineChartType;
 
 #param mark ---- 必选属性
