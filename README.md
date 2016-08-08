@@ -10,61 +10,61 @@
 *
 *  @return 自定义折线图
 */
--(instancetype)initWithFrame:(CGRect)frame andLineChartType:(HLLineChartType)lineChartType;
+		-(instancetype)initWithFrame:(CGRect)frame andLineChartType:(HLLineChartType)lineChartType;
 
 #param mark ---- 必选属性
   
-/*         折线图的X轴刻度数据 建议使用NSNumber或数字的字符串化                */
-@property (nonatomic,strong) NSArray * xLineDataArr;
+		/*         折线图的X轴刻度数据 建议使用NSNumber或数字的字符串化                */
+		@property (nonatomic,strong) NSArray * xLineDataArr;
 
 
-/*         折线图的Y轴刻度数据 同上                */
-@property (nonatomic,strong) NSArray * yLineDataArr;
+		/*         折线图的Y轴刻度数据 同上                */
+		@property (nonatomic,strong) NSArray * yLineDataArr;
 
 
-/*         折线图的点坐标数组 不同类型对应不同数据源  参考上面HLLineChartType       */
-@property (nonatomic,strong) NSArray * valueArr;
+		/*         折线图的点坐标数组 不同类型对应不同数据源  参考上面HLLineChartType       */
+		@property (nonatomic,strong) NSArray * valueArr;
 
 
-/*         折线图类型          */
-@property (assign , nonatomic) HLLineChartType  lineType ;
+		/*         折线图类型          */
+		@property (assign , nonatomic) HLLineChartType  lineType ;
 
 
-/*         折线图象限类型          */
-@property (assign, nonatomic) HLLineChartQuadrantType  lineChartQuadrantType;
+		/*         折线图象限类型          */
+		@property (assign, nonatomic) HLLineChartQuadrantType  lineChartQuadrantType;
 
 
-/*         线条宽度          */
-@property (assign, nonatomic) CGFloat lineWidth;
+		/*         线条宽度          */
+		@property (assign, nonatomic) CGFloat lineWidth;
 
 
-/*         数值线条颜色          */
-@property (nonatomic,strong) NSArray * valueLineColorArr;
+		/*         数值线条颜色          */
+		@property (nonatomic,strong) NSArray * valueLineColorArr;
 
 
-/*         x y轴线条颜色          */
-@property (nonatomic,strong) UIColor * xAndYLineColor;
+		/*         x y轴线条颜色          */
+		@property (nonatomic,strong) UIColor * xAndYLineColor;
 
 
-/*         点的颜色          */
-@property (nonatomic,strong) NSArray * pointColorArr;
+		/*         点的颜色          */
+		@property (nonatomic,strong) NSArray * pointColorArr;
 
 
-/*         x,y轴刻度值颜色          */
-@property (nonatomic,strong) UIColor * xAndYNumberColor;
+				/*         x,y轴刻度值颜色          */
+		@property (nonatomic,strong) UIColor * xAndYNumberColor;
 
 
-/*         点的引导虚线颜色          */
-@property (nonatomic,strong) NSArray * positionLineColorArr;
+		/*         点的引导虚线颜色          */
+		@property (nonatomic,strong) NSArray * positionLineColorArr;
 
 
-/*         坐标点数值颜色          */
-@property (nonatomic,strong) NSArray * pointNumberColorArr;
+		/*         坐标点数值颜色          */
+		@property (nonatomic,strong) NSArray * pointNumberColorArr;
 
 #param mark ---- 非必选属性
 
-/*         是否需要点          */
-@property (assign, nonatomic) BOOL hasPoint;
+		/*         是否需要点          */
+		@property (assign, nonatomic) BOOL hasPoint;
 
 
 
