@@ -74,8 +74,8 @@
 
 #pragma mark ----第一象限折线图（调用示例）
 
-- (void)showFirstQuardrant
-{
+		- (void)showFirstQuardrant
+		{
 			HLLineChart *lineChart = [[HLLineChart alloc] initWithFrame:CGRectMake(10,300,k_MainBoundsWidth-20,300) andLineChartType:HLChartLineValueNotForEveryX];
 
 			/* X轴的刻度值 可以传入NSString或NSNumber类型  并且数据结构随折线图类型变化而变化 详情看文档或其他象限X轴数据源示例*/
@@ -106,13 +106,13 @@
 
 			[lineChart showAnimation];
 
-}
+		}
 
 #pragma mark ----第一二象限折线图（调用示例）
 
 
-- (void)showFirstAndSecondQuardrant
-{
+		- (void)showFirstAndSecondQuardrant
+		{
 			HLLineChart *lineChart = [[HLLineChart alloc] initWithFrame:CGRectMake(10,300,k_MainBoundsWidth-20,300) andLineChartType:HLChartLineValueNotForEveryX];
 			lineChart.xLineDataArr = @[@[@"-3",@"-2",@"-1"],@[@0,@1,@2,@3]];
 			lineChart.lineChartQuadrantType = HLLineChartQuadrantTypeFirstAndSecondQuardrant;
@@ -138,8 +138,8 @@
 #pragma mark ----第一四象限折线图（调用示例）
 
 
-- (void)showFirstAndFouthQuardrant
-{
+		- (void)showFirstAndFouthQuardrant
+		{
 			HLLineChart *lineChart = [[HLLineChart alloc] initWithFrame:CGRectMake(10,300,k_MainBoundsWidth-20,300) andLineChartType:HLChartLineValueNotForEveryX];
 			lineChart.xLineDataArr = @[@"0",@"1",@"2",@3,@4,@5,@6,@7];
 			lineChart.lineChartQuadrantType = HLLineChartQuadrantTypeFirstAndFouthQuardrant;
@@ -158,12 +158,12 @@
 
 			[self.view addSubview:lineChart];
 			[lineChart showAnimation];
-}
+		}
 #pragma mark ----四个象限折线图（调用示例）
 
 
-- (void)showAllQuardrant
-{
+		- (void)showAllQuardrant
+		{
 
 			HLLineChart *lineChart = [[HLLineChart alloc] initWithFrame:CGRectMake(10,300,k_MainBoundsWidth-20,300) andLineChartType:HLChartLineValueNotForEveryX];
 
@@ -183,6 +183,6 @@
 
 			[self.view addSubview:lineChart];
 			[lineChart showAnimation];
-}
+		}
 
 
