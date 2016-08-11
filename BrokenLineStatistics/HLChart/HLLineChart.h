@@ -109,7 +109,7 @@ typedef NS_ENUM(NSInteger,HLLineChartQuadrantType){
 
 
 /**
- *  重写初始化方法
+ *  初始化方法
  *
  *  @param frame         frame
  *  @param lineChartType 折线图类型
