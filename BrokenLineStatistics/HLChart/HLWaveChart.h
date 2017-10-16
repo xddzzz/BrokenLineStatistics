@@ -2,7 +2,7 @@
 //  HLWaveChart.h
 //  BrokenLineStatistics
 //
-//  Created by 李恒 on 16/8/8.
+//  Created by HL on 16/8/8.
 //  Copyright © 2016年 HL. All rights reserved.
 //
 
